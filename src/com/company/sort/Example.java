@@ -26,7 +26,7 @@ public class Example {
     }
     private static void show(Comparable[] a) {
         for (Comparable comparable : a) {
-            System.out.println(a + " ");
+            System.out.println(comparable + " ");
         }
     }
 
