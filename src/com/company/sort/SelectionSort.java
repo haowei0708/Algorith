@@ -1,5 +1,9 @@
 package com.company.sort;
 
+/**
+ * 选择排序算法
+ * 主要思想：数组中找到最小值放入在最左边，剩余的数组再寻找到最小值
+ */
 public class SelectionSort {
     public static void main(String[] args) {
         // write your code here
@@ -29,7 +33,7 @@ public class SelectionSort {
         a[j] = t;
     }
 
-    private static void show(int[] a) {
+    public static void show(int[] a) {
         for (int i : a) {
             System.out.print(i + " ");
         }

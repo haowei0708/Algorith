@@ -1,5 +1,11 @@
 package com.company.sort;
 
+import edu.princeton.cs.algs4.StdRandom;
+
+/**
+ * 插入排序
+ * 主要思想：将一个值与左边值依次比较，插入到合适的位置 ，sort过程中，左边数组是已排好顺序的数组
+ */
 public class InsertionSort {
     public static void main(String[] args) {
         // write your code here
@@ -29,7 +35,7 @@ public class InsertionSort {
         a[j] = t;
     }
 
-    private static void show(int[] a) {
+    public static void show(int[] a) {
         for (int i : a) {
             System.out.print(i + " ");
         }
