@@ -9,13 +9,13 @@ import edu.princeton.cs.algs4.StdRandom;
 public class InsertionSort {
     public static void main(String[] args) {
         // write your code here
-        int[] a = new int[]{1, 6, 4, 8, 5, 7, 9};
+        Integer[] a = new Integer[]{1, 6, 4, 8, 5, 7, 9};
         sort(a);
         show(a);
         isSorted(a);
     }
 
-    public static void sort(int[] a) {
+    public static void sort(Comparable[] a) {
         int length = a.length;
         for (int i = 1; i < length; i++) {
             for (int j = i; j > 0; j--) {
@@ -25,24 +25,24 @@ public class InsertionSort {
         }
     }
 
-    private static boolean less(int a, int b) {
-        return a < b;
+    private static boolean less(Comparable a, Comparable b) {
+        return a.compareTo(b) < 0;
     }
 
-    private static void exch(int[] a, int i, int j) {
-        int t = a[i];
+    private static void exch(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
         a[i] = a[j];
         a[j] = t;
     }
 
-    public static void show(int[] a) {
-        for (int i : a) {
-            System.out.print(i + " ");
+    public static void show(Comparable[] a) {
+        for (Comparable comparable : a) {
+            System.out.print(comparable + " ");
         }
         System.out.println("");
     }
 
-    private static boolean isSorted(int[] a) {
+    private static boolean isSorted(Comparable[] a) {
         for (int i = 1; i < a.length; i++) {
             if (less(a[i], a[i - 1])) return false;
         }

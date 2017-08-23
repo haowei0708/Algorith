@@ -1,5 +1,7 @@
 package com.company.sort;
 
+import edu.princeton.cs.algs4.Insertion;
+import edu.princeton.cs.algs4.Shell;
 import edu.princeton.cs.algs4.StdRandom;
 
 /**
@@ -7,7 +9,7 @@ import edu.princeton.cs.algs4.StdRandom;
  */
 public class SortCompare {
     public static void main(String[] args) {
-        int[] a = new int[100000];
+        Integer[] a = new Integer[100000];
         for (int i = 0;i < 100000;i++) {
             a[i] = StdRandom.uniform(10000);
         }
