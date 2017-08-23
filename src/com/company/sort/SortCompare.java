@@ -11,17 +11,21 @@ public class SortCompare {
     public static void main(String[] args) {
         Integer[] a = new Integer[100000];
         for (int i = 0;i < 100000;i++) {
-            a[i] = StdRandom.uniform(10000);
+            a[i] = StdRandom.uniform(1000000);
         }
 
         long insertStart = System.currentTimeMillis();
         InsertionSort.sort(a);
         System.out.println("InsertSort Time:" + (System.currentTimeMillis() - insertStart));
-        InsertionSort.show(a);
+//        InsertionSort.show(a);
 
         long selectStart = System.currentTimeMillis();
         InsertionSort.sort(a);
         System.out.println("selectStart Time:" + (System.currentTimeMillis() - selectStart));
-        InsertionSort.show(a);
+//        InsertionSort.show(a);
+
+        long shellStart = System.currentTimeMillis();
+        ShellSort.sort(a);
+        System.out.println("selectStart Time:" + (System.currentTimeMillis() - shellStart));
     }
 }
