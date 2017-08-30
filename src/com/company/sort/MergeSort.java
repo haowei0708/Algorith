@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.Merge;
 
 /**
  * 归并排序
+ * 主要思想：递归将数组分两半的分别排序，然后将结果归并起来
  */
 public class MergeSort {
     public static void main(String[] args) {

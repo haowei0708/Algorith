@@ -2,7 +2,7 @@ package com.company.sort;
 
 /**
  * 希尔排序:
- * 无法准确猫叔其对于乱序的数组的性能特征的排序方法，个人理解，插入排序的基础上先让数组更有序
+ * 主要思想：插入排序的基础上先让数组更有序，但无法准确猫叔其对于乱序的数组的性能特征的排序方法
  */
 public class ShellSort {
     public static void main(String[] args) {

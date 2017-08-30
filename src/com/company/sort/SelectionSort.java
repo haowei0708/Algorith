@@ -2,7 +2,7 @@ package com.company.sort;
 
 /**
  * 选择排序算法
- * 主要思想：数组中找到最小值放入在最左边，剩余的数组再寻找到最小值
+ * 主要思想：每次*选择*剩余数组的最小值，置于该数组的最低位，剩余的数组再寻找到最小值
  */
 public class SelectionSort {
     public static void main(String[] args) {

@@ -2,6 +2,10 @@ package com.company.sort;
 
 import edu.princeton.cs.algs4.StdRandom;
 
+/**
+ * 快速排序
+ * 主要思想：递归地选择一个基准值，将小于该基准值的元素放在基准值左边，大于该基准值的放在右边
+ */
 public class QuickSort {
 
     public static void main(String[] args) {
