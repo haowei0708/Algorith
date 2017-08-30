@@ -9,23 +9,36 @@ import edu.princeton.cs.algs4.StdRandom;
  */
 public class SortCompare {
     public static void main(String[] args) {
-        Integer[] a = new Integer[100000];
-        for (int i = 0;i < 100000;i++) {
-            a[i] = StdRandom.uniform(1000000);
+//        Integer[] a = new Integer[100000];
+//        for (int i = 0;i < 100000;i++) {
+//            a[i] = StdRandom.uniform(1000000);
+//        }
+
+        Double[] b = new Double[10000000];
+        for (int i = 0;i < 10000000;i++) {
+            b[i] = StdRandom.uniform(0.0,1.0);
         }
 
-        long insertStart = System.currentTimeMillis();
-        InsertionSort.sort(a);
+/*        long insertStart = System.currentTimeMillis();
+        InsertionSort.sort(b);
         System.out.println("InsertSort Time:" + (System.currentTimeMillis() - insertStart));
 //        InsertionSort.show(a);
 
         long selectStart = System.currentTimeMillis();
-        InsertionSort.sort(a);
-        System.out.println("selectStart Time:" + (System.currentTimeMillis() - selectStart));
-//        InsertionSort.show(a);
+        SelectionSort.sort(b);
+        System.out.println("SelectionSort Time:" + (System.currentTimeMillis() - selectStart));
+//        InsertionSort.show(a);*/
 
         long shellStart = System.currentTimeMillis();
-        ShellSort.sort(a);
-        System.out.println("selectStart Time:" + (System.currentTimeMillis() - shellStart));
+        ShellSort.sort(b);
+        System.out.println("ShellSort Time:" + (System.currentTimeMillis() - shellStart));
+
+        long mergeStart = System.currentTimeMillis();
+        MergeSort.sort(b);
+        System.out.println("MergeSort Time:" + (System.currentTimeMillis() - mergeStart));
+
+        long quickStart = System.currentTimeMillis();
+        QuickSort.sort(b);
+        System.out.println("QuickSort Time:" + (System.currentTimeMillis() - quickStart));
     }
 }

@@ -7,7 +7,12 @@ import java.util.ArrayList;
 public class Example {
 
     public static void main(String[] args) {
-        System.out.println("Hello IDEA");
+        Integer[] a = new Integer[]{1, 6, 4, 8, 5, 7, 9};
+        int i = 0;
+        int j = 6;
+        System.out.print(a[i++] + " ");
+        System.out.print(a[--j] + " ");
+
     }
 
     public static void sort(Comparable[] a)  {
