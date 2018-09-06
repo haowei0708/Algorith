@@ -1,8 +1,8 @@
 package com.company.leetcode.fifty;
 
-public class AddTwoNumbers2 {
+public class AddTwoNumbers_2 {
     public static void main(String[] args) {
-        AddTwoNumbers2 addTwoNumbers2 = new AddTwoNumbers2();
+        AddTwoNumbers_2 addTwoNumbers2 = new AddTwoNumbers_2();
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(3);

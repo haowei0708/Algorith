@@ -2,11 +2,11 @@ package com.company.leetcode.fifty;
 
 import java.util.HashMap;
 
-public class TwoSum1 {
+public class TwoSum_1 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
-        TwoSum1 twoSum = new TwoSum1();
+        TwoSum_1 twoSum = new TwoSum_1();
         int[] result = twoSum.twoSum(nums, 26);
         System.out.println("[index0:" + result[0] + "index1:" + result[1]);
         int[] result2 = twoSum.twoSum2(nums, 9);

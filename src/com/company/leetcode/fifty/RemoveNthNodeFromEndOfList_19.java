@@ -1,6 +1,6 @@
 package com.company.leetcode.fifty;
 
-public class RemoveNthNodeFromEndofList19 {
+public class RemoveNthNodeFromEndOfList_19 {
 
     public class ListNode {
         int val;
