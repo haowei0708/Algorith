@@ -1,6 +1,5 @@
 package com.company.sort;
 
-import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * 快速排序
@@ -16,7 +15,7 @@ public class QuickSort {
     }
 
     public static void sort(Comparable[] a) {
-        StdRandom.shuffle(a);
+//        StdRandom.shuffle(a);
         sort(a,0,a.length -1);
     }
 

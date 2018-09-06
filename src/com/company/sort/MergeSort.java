@@ -1,6 +1,5 @@
 package com.company.sort;
 
-import edu.princeton.cs.algs4.Merge;
 
 /**
  * 归并排序

@@ -1,9 +1,5 @@
 package com.company.sort;
 
-import edu.princeton.cs.algs4.Insertion;
-import edu.princeton.cs.algs4.Shell;
-import edu.princeton.cs.algs4.StdRandom;
-
 /**
  * 排序算法比较类
  */
@@ -16,7 +12,7 @@ public class SortCompare {
 
         Double[] b = new Double[10000000];
         for (int i = 0;i < 10000000;i++) {
-            b[i] = StdRandom.uniform(0.0,1.0);
+//            b[i] = StdRandom.uniform(0.0,1.0);
         }
 
 /*        long insertStart = System.currentTimeMillis();
