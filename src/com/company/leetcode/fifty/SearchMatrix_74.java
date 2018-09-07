@@ -15,7 +15,7 @@ public class SearchMatrix_74 {
         }
         if (i == 0) return false;
         for (int j = 0; j < n; j++) {
-            if (target == matrix[i-1][j]) return true;
+            if (target == matrix[i - 1][j]) return true;
         }
         return false;
     }
