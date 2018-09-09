@@ -1,4 +1,4 @@
-package com.company.leetcode.fifty;
+package com.company.leetcode.index50;
 
 public class MergeTwoSortedLists_21 {
     public class ListNode {

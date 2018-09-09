@@ -1,4 +1,4 @@
-package com.company.leetcode.fifty;
+package com.company.leetcode.index150;
 
 public class LinkedListCycle_141 {
     class ListNode {

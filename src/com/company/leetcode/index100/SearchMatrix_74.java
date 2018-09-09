@@ -1,4 +1,4 @@
-package com.company.leetcode.fifty;
+package com.company.leetcode.index100;
 
 public class SearchMatrix_74 {
     public boolean searchMatrix(int[][] matrix, int target) {
